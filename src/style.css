@@ -1,3 +1,8 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.hero {
+  background-image: url(media/Green-Universe.jpg);
+  text-align: center;
+  margin-top: 120px;
+}
