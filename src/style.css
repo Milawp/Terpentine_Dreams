@@ -1,128 +1,136 @@
-:root{
-  --primary-color: #130c1a
- --secondary-color: #515e63;
+:root {
+  --box-shadow: 5px 5px 2px rgba(185, 185, 185, 0.2);
+  --primary-color: #130c1a;
+  --secondary-color: #f5f5f5;
+  --third-color: #43947d;
 }
-
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #130c1a;
+  background: var(--primary-color);
   color: whitesmoke;
 }
 .nav {
   background: black;
 }
-.nav a{
+.nav a {
   text-decoration: none;
-  color: #f5f5f5;
+  color: var(--secondary-color);
   margin-right: 40px;
 }
-.nav-links{
+.nav a:hover {
+  color: var(--third-color);
+}
+.nav-links {
   margin-top: 10px;
 }
-.logo{
+.logo {
   max-height: 50px;
 }
 .hero {
   background-image: url("/images/universe.jpg");
-  background-size: 150%
+  background-size: 150%;
 }
 .hero h1 {
   font-size: 75px;
 }
 
-.featured{
+.featured {
   max-height: 80%;
   margin-right: 50px;
   margin-left: 50px;
 }
-.featured-long{
+.featured-long {
   max-height: 90%;
 }
-.Daniel{
+.Daniel {
   margin-top: 20px;
 }
 .btn-hero {
   border-radius: 50px;
-  background: #f5f5f5;
-  color: #130c1a;
+  background: var(--secondary-color);
+  color: var(--primary-color);
   margin-top: 40px;
   margin-bottom: 100px;
 }
-.profile-picture{
-max-width: 500px;
+.profile-picture {
+  max-width: 500px;
 }
 .about-me {
-  color: #055b3f;
+  color: var(--third-color);
 }
-.socials{
+.socials {
   margin-right: 20px;
-  color: #f5f5f5;
+  color: var(--secondary-color);
   font-size: 22px;
 }
-a{
+a {
   text-decoration: none;
 }
-.socials:hover{
+.socials:hover {
   color: #055b3f;
 }
-.featured-about{
-  border: 5px solid #f5f5f5;
+.featured-about {
+  border: 5px solid var(--secondary-color);
 }
-.gallery{
+.gallery {
   max-height: 300px;
-  border: 5px solid #f5f5f5;
+  border: 5px solid var(--secondary-color);
 }
-.container-contact{
+.container-contact {
   text-align: center;
 }
-.container-contact h1{
+.container-contact h1 {
   font-size: 70px;
 }
-.contact-pic{
+.contact-pic {
   max-height: 50%;
   display: block;
   margin: 0 auto;
-  border: 2px solid #f5f5f5;
+  border: 2px solid var(--secondary-color);
 }
-footer{
+footer {
   background: black;
 }
-.logo-extended{
-  font-family: 'Anton', sans-serif;
+.logo-extended {
+  font-family: "Anton", sans-serif;
 }
-.footer-socials{
+.footer-socials {
   color: #f5f5f5;
   margin-left: 30px;
   margin-left: 30px;
 }
-.sourced{
+.sourced {
   font-size: 10px;
   text-decoration: none;
 }
-@media (max-width: 960px){
-  .nav-links{
+@media (max-width: 960px) {
+  .nav-links {
     font-size: 12px;
     margin-top: 15px;
   }
-  .hero h1{
+  .hero h1 {
     font-size: 40px;
   }
-  .hero h2{
+  .hero h2 {
     font-size: 20px;
   }
-  .btn-hero{
+  .btn-hero {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .featured{
+  .featured {
     margin-left: 0px;
     margin-right: 0px;
   }
-.Daniel{
-  margin-top: 5px;
-}
-
-
+  .Daniel {
+    margin-top: 5px;
+  }
+  .profile-picture {
+    max-width: 100%;
+  }
+  .featured-about {
+    max-width: 100px;
+  }
   
 }
