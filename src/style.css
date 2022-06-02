@@ -132,5 +132,8 @@ footer {
   .featured-about {
     max-width: 100px;
   }
-  
+
+  .container-contact h1 {
+    font-size: 50px;
+  }
 }
