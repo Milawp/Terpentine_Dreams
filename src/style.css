@@ -39,9 +39,11 @@ body {
   max-height: 80%;
   margin-right: 50px;
   margin-left: 50px;
+  border: 2px solid var(--secondary-color);
 }
 .featured-long {
   max-height: 90%;
+  border: 2px solid var(--secondary-color);
 }
 .Daniel {
   margin-top: 20px;
