@@ -32,12 +32,15 @@ body {
 }
 
 .featured{
-  max-height: 200px;
+  max-height: 80%;
   margin-right: 50px;
   margin-left: 50px;
 }
 .featured-long{
-  max-height: 200px;
+  max-height: 90%;
+}
+.Daniel{
+  margin-top: 20px;
 }
 .btn-hero {
   border-radius: 50px;
@@ -96,4 +99,30 @@ footer{
 .sourced{
   font-size: 10px;
   text-decoration: none;
+}
+@media (max-width: 960px){
+  .nav-links{
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  .hero h1{
+    font-size: 40px;
+  }
+  .hero h2{
+    font-size: 20px;
+  }
+  .btn-hero{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .featured{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+.Daniel{
+  margin-top: 5px;
+}
+
+
+  
 }
