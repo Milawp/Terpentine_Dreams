@@ -19,7 +19,6 @@ body {
 }
 .nav-links{
   margin-top: 10px;
-
 }
 .logo{
   max-height: 50px;
@@ -82,4 +81,19 @@ a{
   display: block;
   margin: 0 auto;
   border: 2px solid #f5f5f5;
+}
+footer{
+  background: black;
+}
+.logo-extended{
+  font-family: 'Anton', sans-serif;
+}
+.footer-socials{
+  color: #f5f5f5;
+  margin-left: 30px;
+  margin-left: 30px;
+}
+.sourced{
+  font-size: 10px;
+  text-decoration: none;
 }
